@@ -1,0 +1,128 @@
+/* src/App.css */
+
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.App {
+  width: 100%;
+  max-width: 800px;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 28px;
+  color: #2c3e50;
+}
+
+.form {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+}
+
+.input-group label {
+  font-size: 16px;
+  color: #555;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.input-field:focus {
+  border-color: #3498db;
+}
+
+.submit-btn {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  color: white;
+  background-color: #3498db;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.submit-btn:hover {
+  background-color: #2980b9;
+}
+
+.result {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.result h3 {
+  font-size: 20px;
+  color: #2c3e50;
+}
+
+.result span {
+  font-weight: bold;
+  color: #3498db;
+}
+
+.diet-plan {
+  margin-top: 20px;
+  text-align: left;
+}
+
+.diet-plan h3 {
+  font-size: 22px;
+  color: #2c3e50;
+  margin-bottom: 15px;
+}
+
+.diet-plan ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.diet-plan li {
+  font-size: 16px;
+  padding: 8px;
+  background-color: #ecf0f1;
+  margin-bottom: 8px;
+  border-radius: 5px;
+}
+
+.diet-plan li strong {
+  color: #2c3e50;
+}
